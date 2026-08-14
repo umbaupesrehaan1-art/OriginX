@@ -7,7 +7,6 @@ from services.synthesizer import generate_synthetic_data
 from services.audit import audit_synthetic_data
 from services.privacy import privacy_audit
 from services.privacy_dp import run_dp_demo
-from fastapi.middleware.cors import CORSMiddleware
 
 
 # ============================================================
@@ -23,19 +22,23 @@ app = FastAPI(
 
 # ============================================================
 # CORS CONFIGURATION
-# Allows React frontend to communicate with FastAPI backend
+# Allows the deployed Vercel frontend and local Vite frontend
+# to communicate with the FastAPI backend.
 # ============================================================
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://origin-x-self.vercel.app",
+        "https://origin-x-self.vercel.app/",
         "http://localhost:5173",
+        "http://127.0.0.1:5173",
     ],
     allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 # ============================================================
 # HOME
 # ============================================================
