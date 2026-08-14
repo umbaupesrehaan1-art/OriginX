@@ -3,3 +3,7 @@ uvicorn[standard]
 python-multipart
 pandas
 numpy
+ctgan==0.12.1
+sdmetrics
+torch
+opacus
