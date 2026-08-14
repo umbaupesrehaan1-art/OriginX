@@ -1,0 +1,11 @@
+patient_name,age,gender,blood_pressure,glucose,bmi,diagnosis,hospital_type
+Patient_005,25,Female,103,143,21.970985060938695,Normal,Private
+Patient_001,27,Male,137,70,22.48536379326773,Normal,Private
+Patient_003,89,Male,110,43,22.571774607979563,Hypertension,Private
+Patient_007,8,Male,120,187,22.115422901027408,Diabetes,Private
+Patient_001,74,Female,144,89,23.335032339854003,Hypertension,Private
+Patient_008,67,Female,108,145,23.698203485861352,Normal,Private
+Patient_006,51,Male,108,52,36.19576361771466,Diabetes,Private
+Patient_005,59,Female,146,118,17.440745567904067,Diabetes,Government
+Patient_003,67,Male,162,84,20.5199606566594,Diabetes,Private
+Patient_004,38,Female,140,63,18.41372011222677,Diabetes,Private

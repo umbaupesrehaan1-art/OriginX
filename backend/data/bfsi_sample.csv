@@ -1,0 +1,11 @@
+name,age,income,credit_score,loan_amount,employment_type,loan_status,city
+Rahul,29,55000,720,250000,Salaried,Approved,Mumbai
+Aisha,34,72000,680,400000,Self-Employed,Approved,Pune
+Arjun,41,45000,610,300000,Salaried,Rejected,Delhi
+Sara,27,62000,750,200000,Salaried,Approved,Mumbai
+Kabir,38,90000,790,500000,Business,Approved,Bangalore
+Neha,31,48000,640,350000,Salaried,Rejected,Chennai
+Imran,45,85000,710,450000,Business,Approved,Hyderabad
+Priya,26,42000,590,180000,Salaried,Rejected,Pune
+Aditya,36,68000,735,320000,Salaried,Approved,Mumbai
+Zoya,30,58000,665,280000,Self-Employed,Approved,Delhi

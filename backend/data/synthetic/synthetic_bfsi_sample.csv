@@ -1,0 +1,11 @@
+name,age,income,credit_score,loan_amount,employment_type,loan_status,city
+Zoya,41,74360,764,324926,Business,Approved,Delhi
+Aisha,28,69260,698,333920,Salaried,Rejected,Pune
+Zoya,22,68844,544,134975,Salaried,Approved,Hyderabad
+Kabir,41,88941,732,412289,Business,Rejected,Chennai
+Rahul,24,18319,673,238109,Salaried,Rejected,Mumbai
+Kabir,29,89827,595,333473,Salaried,Rejected,Mumbai
+Rahul,32,98845,578,96941,Salaried,Approved,Hyderabad
+Rahul,20,96544,555,513848,Salaried,Approved,Hyderabad
+Imran,26,81951,656,328341,Self-Employed,Rejected,Bangalore
+Aditya,37,50220,478,110499,Salaried,Approved,Hyderabad
