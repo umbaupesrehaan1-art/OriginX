@@ -425,6 +425,7 @@ function App() {
             </div>
 
             <button
+              type="button"
               onClick={analyzeDataset}
               disabled={!file || isLoading}
               className="md:ml-auto px-7 py-3 rounded-lg bg-cyan-500 text-slate-950 font-semibold hover:bg-cyan-400 disabled:opacity-40 disabled:cursor-not-allowed transition"
@@ -541,6 +542,7 @@ function App() {
             </div>
 
             <button
+              type="button"
               onClick={generateDataset}
               disabled={isLoading}
               className="mt-7 px-7 py-3 rounded-lg bg-cyan-500 text-slate-950 font-semibold hover:bg-cyan-400 disabled:opacity-40 transition"
@@ -602,6 +604,7 @@ function App() {
             </div>
 
             <button
+              type="button"
               onClick={runAudit}
               disabled={isLoading}
               className="mt-7 px-7 py-3 rounded-lg bg-cyan-500 text-slate-950 font-semibold hover:bg-cyan-400 disabled:opacity-40 transition"
@@ -709,6 +712,7 @@ function App() {
             <div className="mt-7 flex flex-wrap gap-4">
 
               <button
+                type="button"
                 onClick={runPrivacyAudit}
                 disabled={isLoading}
                 className="px-7 py-3 rounded-lg bg-cyan-500 text-slate-950 font-semibold hover:bg-cyan-400 disabled:opacity-40 transition"
@@ -719,6 +723,7 @@ function App() {
               </button>
 
               <button
+                type="button"
                 onClick={runDPDemo}
                 disabled={isLoading}
                 className="px-7 py-3 rounded-lg border border-cyan-700 bg-cyan-950/30 text-cyan-400 font-semibold hover:bg-cyan-950/60 disabled:opacity-40 transition"
@@ -965,6 +970,7 @@ function App() {
             )}
 
             <button
+              type="button"
               onClick={loadFinalReport}
               disabled={loading === "report"}
               className="mt-8 px-7 py-3 rounded-lg border border-slate-700 bg-slate-950 text-white font-semibold hover:border-cyan-700 disabled:opacity-40 transition"
@@ -999,6 +1005,7 @@ function App() {
           <div className="flex justify-center mb-10">
 
             <button
+              type="button"
               onClick={resetProject}
               className="px-6 py-2 rounded-lg border border-slate-800 text-slate-500 hover:text-white hover:border-slate-600 transition"
             >
