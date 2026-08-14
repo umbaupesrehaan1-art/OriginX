@@ -1,7 +1,6 @@
 import { useState } from "react";
 
-const API = "http://127.0.0.1:8000";
-
+const API = "https://originx-backend-wmdz.onrender.com";
 function App() {
   const [file, setFile] = useState(null);
 
